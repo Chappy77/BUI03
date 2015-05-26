@@ -33,7 +33,7 @@ head.ready(function() {
     setTimeout(function() {
         document.body.style.display = 'block' //show page in a bit
         console.log('ready')
-    },10)
+    },150)
 })
 
 fullPage = false
@@ -43,10 +43,15 @@ var solutionNav=document.getElementById('solutionNav')
 function onModule(el) {
     console.log('loaded ' + el)
 
-    if(el!='solutions') {// not product
+    if(el!='solutions') {// not solutions
+        $('#footer').show()
+
         if(fullPage) // already shown - so css is messed up (else rewrite fullpage)
             location.reload()// needed to 'remove' pager
+            bonzo(solutionNav).removeClass('uk-active')// remove highlight
 
-        bonzo(solutionNav).removeClass('uk-active')// remove highlight
+    } else {
+        console.log('***')
+        $('#footer').hide()
     }
 }
