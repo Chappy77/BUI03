@@ -1,0 +1,51 @@
+<div>
+<div class='uk-grid' >
+    <div class='uk-width-1-2'>
+        <video  autoplay controls muted  style='width: 100%'><!-- won't loop w/o event -->
+            <source src='//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/custAssets/MLS.mp4'         type='video/mp4'>
+        </video>
+    </div>
+    <div class='uk-width-1-2'>
+        <video  autoplay controls muted  style='width: 100%'>
+            <source src='//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/custAssets/Accounting.mp4'   type='video/mp4'>
+        </video>
+    </div>
+</div>
+
+<div class='uk-grid' >
+    <div class='uk-width-1-6'>
+        <img src='//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/custAssets/amadeus.png' style='height:2.5rem; '  />
+    </div>
+   <div class='uk-width-1-6'>
+        <img src='//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/custAssets/trimble.png' style='height:2.5rem; '  />
+    </div>
+   <div class='uk-width-1-6'>
+        <img src='//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/custAssets/ebates.png' style='height:2.5rem; '  />
+    </div>
+    <div class='uk-width-1-6'>
+        <img src='//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/custAssets/accouting.png' style='height:2.5rem; '  />
+    </div>
+   <div class='uk-width-1-6'>
+        <img src='//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/custAssets/MLS.png' style='height:2.5rem; '  />
+    </div>
+   <div class='uk-width-1-6'>
+        <img src='//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/custAssets/tesla.jpg' style='height:2.5rem; '  />
+    </div>
+</div>
+
+<p>
+
+Contact us to join our customer's that are already traffic shaping API's outside there DC.
+
+</p>
+
+<script>
+
+$('video').on('ended', function () {
+    console.log('ended  vid')
+    this.load()
+    this.play()
+})
+
+</script>
+</div>
