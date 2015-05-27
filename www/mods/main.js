@@ -1,22 +1,23 @@
 head.load(
-    'CDN/uikit/css/uikit.original.css' // don't change
+    '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/uikit/css/uikit.original.css' // don't change
 
     ,'//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'
-    ,'CDN/js/jquery.fullPage.css'
-    ,'CDN/js/jquery.fullPage.js'
 
-    ,'CDN/js/raphael-min.js'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/jquery.fullPage.css'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/jquery.fullPage.js'
 
-    ,'CDN/jvectormap/jquery-jvectormap.css'
-    ,'CDN/jvectormap/jquery-jvectormap.min.js'
-    ,'CDN/jvectormap/jquery-jvectormap-us-lcc-en.js'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/raphael-min.js'
+
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/jvectormap/jquery-jvectormap.css'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/jvectormap/jquery-jvectormap.min.js'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/jvectormap/jquery-jvectormap-us-lcc-en.js'
 
     //Mod lib
-    ,'CDN/fonts/lato/Lato-Regular.css'
-    ,'CDN/js/bonzo.js'
-    ,'CDN/js/signals.min.js'
-    ,'CDN/style.css' // changes here
-    ,'CDN/js/mod.js'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/fonts/lato/Lato-Regular.css'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/bonzo.js'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/signals.min.js'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/style.css' // changes here
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/mod.js'
 )
 
 head.ready(function() {
