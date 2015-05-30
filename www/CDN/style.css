@@ -60,3 +60,8 @@ position: fixed ;
     font: normal 16px / 22px 'Lato', serif;
 }
 
+
+[class*="icono-"],
+[class*="icono-"] * {
+    color: #005599;
+}

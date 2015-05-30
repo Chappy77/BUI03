@@ -1,5 +1,6 @@
 head.load(
     '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/uikit/css/uikit.original.css' // don't change
+    ,'CDN/fonts/icono.css'
 
     ,'//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'
 
@@ -16,11 +17,16 @@ head.load(
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/fonts/lato/Lato-Regular.css'
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/bonzo.js'
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/signals.min.js'
-    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/style.css' // changes here
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/mod.js'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/style.css' // changes here
+
 )
 
 head.ready(function() {
+    img1 = new Image() // pre load
+    img1.src = '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/solutionAssets/origin-vs-DDN.png'
+
+
     var hash= Mod.getHash()
     console.log(hash.length)
 
@@ -32,9 +38,9 @@ head.ready(function() {
     Mod.loadedSig.add(onModule)
 
     setTimeout(function() {
-        document.body.style.display = 'block' //show page in a bit
+        $('body').fadeIn(150) //show page in a bit
         console.log('ready')
-    },150)
+    },10)
 })
 
 fullPage = false

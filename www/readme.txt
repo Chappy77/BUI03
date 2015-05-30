@@ -14,5 +14,8 @@ Notice how assets are broken down by page in CDN
 For icons:
 http://fortawesome.github.io/Font-Awesome/icons
 
-For graphics:
+For graphics in SVG:
 http://editor.method.ac
+
+Icons:
+http://github.com/saeedalipoor/icono
