@@ -1,6 +1,6 @@
 head.load(
-    '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/uikit/css/uikit.original.css' // don't change
-    ,'CDN/fonts/icono.css'
+     '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/uikit/css/uikit.original.css' // don't change
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/fonts/icono.css'
 
     ,'//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'
 
@@ -23,9 +23,6 @@ head.load(
 )
 
 head.ready(function() {
-    img1 = new Image() // pre load
-    img1.src = '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/solutionAssets/origin-vs-DDN.png'
-
 
     var hash= Mod.getHash()
     console.log(hash.length)
@@ -62,3 +59,6 @@ function onModule(el) {
         $('#footer').hide()
     }
 }
+
+img1 = new Image() // pre load
+img1.src = '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/solutionAssets/origin-vs-DDN.png'
