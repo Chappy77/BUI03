@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>
+
+    </title>
+	<link rel="stylesheet" type="text/css" href="../CDN/evalAssets/style.css">
+    <script src="../CDN/libs/backendless.js"></script>
+    <script src="../CDN/js/app.js"></script>
+
+</head>
+
+<body>
+
+	<div class="form">
+    	<form onsubmit="sendData(); return false">
+        	<label for="endpoint"><b>API Endpoint:</b></label><br>
+        	<input type="text" id="endpoint" size="35" placeholder="https://api.example.com/"><br><br>
+        	
+	        <label for="secretkey"><b>API Secret Key:</b></label><br>
+	        <input type="password" id="secretkey" size="35"><br><br>
+	        
+	        <label for="email"><b>Email Address:</b></label><br>
+	        <input type="text" id="email" size="35" placeholder="user@example.com"><br><br>
+    	    
+    	    <input type="submit" value="Submit" style="float: left;">
+	    </form>
+	</div>
+
+</body>
+
+</html>
