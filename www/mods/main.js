@@ -38,7 +38,11 @@ head.ready(function() {
         $('body').fadeIn(150) //show page in a bit
         console.log('ready')
     },10)
+
+    head.load('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
 })
+
+
 
 fullPage = false
 
