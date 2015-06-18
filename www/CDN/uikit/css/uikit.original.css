@@ -47,7 +47,7 @@ a:hover {
  */
 a,
 .uk-link {
-  color: #0077dd;
+  color: #5b5f68;
   text-decoration: none;
   cursor: pointer;
 }
@@ -1881,10 +1881,10 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   padding: 0 15px;
   line-height: 40px;
   /* 2 */
-  color: #444444;
+  color: #5b5f68 !important;
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: none;
 }
 /* Appear not as link */
 .uk-navbar-nav > li > a[href='#'] {
