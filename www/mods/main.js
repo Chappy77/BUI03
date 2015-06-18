@@ -39,7 +39,7 @@ head.ready(function() {
         console.log('ready')
     },10)
 
-    head.load('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
+    head.load('http:////maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
 })
 
 
