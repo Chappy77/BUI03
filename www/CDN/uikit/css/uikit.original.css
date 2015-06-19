@@ -1230,13 +1230,13 @@ iframe {
  */
 .uk-panel-box-primary {
   background-color: #ebf7fd;
-  color: #2d7091;
+  color: #58c3b4;
 }
 .uk-panel-box-primary-hover:hover {
-  color: #2d7091;
+  color: #58c3b4;
 }
 .uk-panel-box-primary .uk-panel-title {
-  color: #2d7091;
+  color: #58c3b4;
 }
 /*
  * Sub-modifier: `uk-panel-box-secondary`
@@ -5418,7 +5418,7 @@ a.uk-badge:hover {
   margin-bottom: 15px;
   padding: 10px;
   background: #ebf7fd;
-  color: #2d7091;
+  color: #58c3b4;
 }
 /*
  * Add margin if adjacent element
@@ -6993,7 +6993,7 @@ a.uk-thumbnail:focus {
   color: #999999 !important;
 }
 .uk-text-primary {
-  color: #2d7091 !important;
+  color: #58c3b4 !important;
 }
 .uk-text-success {
   color: #659f13 !important;
@@ -8003,7 +8003,7 @@ a.uk-thumbnail:focus {
   color: rgba(255, 255, 255, 0.6) !important;
 }
 .uk-contrast .uk-text-primary {
-  color: #2d7091 !important;
+  color: #58c3b4 !important;
 }
 /* ========================================================================
    Component: Print
