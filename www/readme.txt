@@ -12,11 +12,8 @@ Make all files named right and used or deleted, and format text professionally.
 Notice how assets are broken down by page in CDN
 
 For icons:
-http://getuikit.com/docs/icon.html
 http://fortawesome.github.io/Font-Awesome/icons
 
 For graphics in SVG:
 http://editor.method.ac
 
-Icons:
-http://github.com/saeedalipoor/icono

@@ -1,5 +1,5 @@
 head.load(
-     'CDN/uikit/css/uikit.original.css' // don't change
+     '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/uikit/css/uikit.original.css' // don't change
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/fonts/icono.css'
 
     ,'//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'
@@ -18,7 +18,7 @@ head.load(
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/bonzo.js'
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/signals.min.js'
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/mod.js'
-    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/style.css' // changes here
+    ,'CDN/style.css' // changes here
 
 )
 
@@ -64,5 +64,5 @@ function onModule(el) {
     }
 }
 
-img1 = new Image() // pre load
-img1.src = '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/solutionAssets/origin-vs-DDN.png'
+img1 = new Image() // pre load :
+img1.src = '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/solutionAssets/origin-vs-DDN2.png'

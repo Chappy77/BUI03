@@ -65,3 +65,7 @@ position: fixed ;
 [class*="icono-"] * {
     color: #5b5f68;
 }
+
+img {
+    height:50%;
+}
