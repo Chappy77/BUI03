@@ -4,9 +4,8 @@ head.load(
 
     ,'//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'
 
-
-    //,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/jquery.fullPage.css'
-    //,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/jquery.fullPage.js'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/jquery.fullPage.css'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/jquery.fullPage.js'
 
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/raphael-min.js'
 
