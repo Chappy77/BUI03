@@ -65,4 +65,4 @@ function onModule(el) {
 }
 
 img1 = new Image() // pre load :
-img1.src = '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/solutionAssets/origin-vs-DDN2.png'
+img1.src = '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/solutionAssets/origin-vs-ddn2.png'
