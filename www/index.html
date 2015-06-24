@@ -1,17 +1,10 @@
 <html><head>
-    <script src='//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/head.load.min.js'></script>
-    <script>
-        head.load('mods/main.js')
-    </script>
 
-    <style>
-        #map-canvas {
-            width: 475px;
-            height: 350px;
-        }
-    </style>
+    <script src='//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/head.load.min.js'></script>
+
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
     <script>
         function initialize() {
             var myLatlng = new google.maps.LatLng(37.3815,-121.9887);
@@ -31,6 +24,25 @@
         google.maps.event.addDomListener(window, 'load', initialize);
 
     </script>
+
+
+
+    <script>
+        head.load('mods/main.js')
+    </script>
+
+
+
+
+
+    <style>
+        #map-canvas {
+        width: 475px;
+        height: 350px;
+        }
+    </style>
+
+
 
     <link rel='shortcut icon' type="image/png"  href='//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/favicon.png'/>
 

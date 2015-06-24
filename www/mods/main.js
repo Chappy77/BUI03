@@ -1,5 +1,5 @@
 head.load(
-     '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/uikit/css/uikit.original.css' // don't change
+    '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/uikit/css/uikit.original.css' // don't change
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/fonts/icono.css'
 
     ,'//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'
@@ -19,6 +19,8 @@ head.load(
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/signals.min.js'
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/mod.js'
     ,'CDN/style.css' // changes here
+
+
 
 )
 

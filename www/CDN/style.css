@@ -5,6 +5,7 @@ Any changes to style do them here
 */
 
 html, body {
+    color: #5b5f68 !important;
     margin:0;
     padding:0;
     height: 100%;
