@@ -25,6 +25,10 @@ html, body {
 }
 
 
+b {
+    color: #444444;
+}
+
 /*
  layout:
  #header
@@ -55,9 +59,9 @@ position: fixed ;
 }
 
 .uk-navbar-nav > li > a {
-    color: #5b5f68;
+    color: #5b5f68 !important;
     font-size: 16px;
-    font-weight: bolder;
+    font-weight: bold;
     font: normal 16px / 22px 'Lato', serif;
 }
 
