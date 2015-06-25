@@ -3,16 +3,6 @@ head.load(
     '//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/uikit/css/uikit.original.css' // don't change
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/fonts/icono.css'
 
-    ,'//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'
-
-    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/jquery.fullPage.css'
-    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/jquery.fullPage.js'
-
-    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/raphael-min.js'
-
-    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/jvectormap/jquery-jvectormap.css'
-    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/jvectormap/jquery-jvectormap.min.js'
-    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/jvectormap/jquery-jvectormap-us-lcc-en.js'
 
     //Mod lib
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/fonts/lato/Lato-Regular.css'
@@ -35,16 +25,13 @@ head.ready(function() {
     Mod.loadedSig.add(onModule)
 
     setTimeout(function() {
-        $('body').fadeIn(150) //show page in a bit
+        document.body.style.display = ''
         console.log('ready')
     },10)
 
     head.load('http:////maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
 })
 
-
-
-//fullPage = false
 
 var solutionNav=document.getElementById('solutionNav')
 
