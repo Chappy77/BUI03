@@ -9,7 +9,18 @@ head.load(
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/bonzo.js'
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/signals.min.js'
     ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/mod.js'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/raphael-min.js'
     ,'CDN/style.css' // changes here
+
+    //jvectormap
+
+    ,'//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js' // changes here
+    ,'CDN/jvectormap/jquery-jvectormap.css'
+    ,'CDN/jvectormap/jquery-jvectormap.min.js'
+    ,'CDN/jvectormap/jquery-jvectormap-us-lcc-en.js'
+    ,'CDN/jvectormap/jquery-jvectormap-world-mill-en.js'
+
+
 )
 
 head.ready(function() {
