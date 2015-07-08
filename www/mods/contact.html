@@ -5,46 +5,42 @@
 
 <div class='uk-grid' >
 
-            <p> Please email us at <a href='mailto:info@apakau.com?subject=website%20inquiry'> info@apakau.com</a>
-    </div>
-    <div class='uk-width-large-2-3'>
+            <p> Please email us at <a href='mailto:info@apakau.com?subject=website%20inquiry'> info@apakau.com</a>    </p>
+</div>
+<br>
+<div class='uk-width-large-2-3'>
             <img src='CDN/contact/locations.jpg' style='width:100%; height:auto '/><br>
-    </div>
 </div>
 
-<br>
+
+
 
 <!--
 <script>
-
-var map,
-    markerIndex = 0,
-    markersCoords = {}
-
-setTimeout(function() {
-        map: 'us_lcc_en'
-        , backgroundColor: 'gray'
-        , markerStyle: {
-            initial: {
-                fill: '#58c3b4'
+    var map,
+            markerIndex = 0,
+            markersCoords = {}
+    setTimeout(function() {
+        map = new jvm.Map({
+            map: 'us_lcc_en'
+            , backgroundColor: 'gray'
+            , markerStyle: {
+                initial: {
+                    fill: '#58c3b4'
+                }
+            },
+            markers: [
+                {latLng: [37.3815, -121.9887], name: 'Sunnyvale'}
+            ],
+            container: $('#map'),
+            onMarkerTipShow: function (e, label, code) {
+                map.tip.text(markersCoords[code].lat.toFixed(2) + ', ' + markersCoords[code].lng.toFixed(2))
+            },
+            onMarkerClick: function (e, code) {
             }
-        },
-        markers: [
-            {latLng: [37.3815, -121.9887], name: 'Sunnyvale'}
-        ],
-        container: $('#map'),
-        onMarkerTipShow: function (e, label, code) {
-            map.tip.text(markersCoords[code].lat.toFixed(2) + ', ' + markersCoords[code].lng.toFixed(2))
-        },
-        onMarkerClick: function (e, code) {
+        })
+    },300)
+</script>-->
 
-        }
-    })
-
-
-},300)
-
-</script>
--->
 
 
