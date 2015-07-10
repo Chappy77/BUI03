@@ -24,6 +24,14 @@ html, body {
     -webkit-user-select: none;
 }
 
+a:link, a:visited {
+    color: #58c2b4;
+}
+
+a:active, a:hover {
+    color: #90D5CB;
+}
+
 
 b {
     color: #444444;
