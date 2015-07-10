@@ -13,12 +13,11 @@ head.load(
     ,'CDN/style.css' // changes here
 
     //jvectormap
-
-    ,'//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js' // changes here
+    ,'//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'
     ,'CDN/jvectormap/jquery-jvectormap.css'
     ,'CDN/jvectormap/jquery-jvectormap.min.js'
     ,'CDN/jvectormap/jquery-jvectormap-us-lcc-en.js'
-    ,'CDN/jvectormap/jquery-jvectormap-world-mill-en.js'
+    ,'CDN/jvectormap/jquery-jvectormap-world-mill-en.js' // changes here
 
 
 )
