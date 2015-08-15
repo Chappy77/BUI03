@@ -1,0 +1,11 @@
+img.dashboard {
+    border: 2px solid #afafaf;
+    width: 500px;
+    height: 311px;
+    vertical-align: middle;
+}
+
+form.request {
+    background-color: #c7e7e2;
+    padding: 5px 180px 25px 180px;
+}

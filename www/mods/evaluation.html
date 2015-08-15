@@ -1,35 +1,108 @@
-<!doctype html>
 <html>
 
 <head>
+
     <meta charset="utf-8">
 
-    <title>
+    <title></title>
 
-    </title>
-	<link rel="stylesheet" type="text/css" href="../CDN/evalAssets/style.css">
+    <link rel="stylesheet" type="text/css" href="../CDN/evalAssets/style.css">
+
     <script src="../CDN/libs/backendless.js"></script>
     <script src="../CDN/js/app.js"></script>
+
+    <script src="../CDN/js/raphael.2.1.0.min.js"></script>
+    <script src="../CDN/js/justgage.1.0.1.min.js"></script>
 
 </head>
 
 <body>
 
-	<div class="form">
-    	<form onsubmit="sendData(); return false">
-        	<label for="endpoint"><b>API Endpoint:</b></label><br>
-        	<input type="text" id="endpoint" size="35" placeholder="https://api.example.com/"><br><br>
-        	
-	        <label for="secretkey"><b>API Secret Key:</b></label><br>
-	        <input type="password" id="secretkey" size="35"><br><br>
-	        
-	        <label for="email"><b>Email Address:</b></label><br>
-	        <input type="text" id="email" size="35" placeholder="user@example.com"><br><br>
-    	    
-    	    <input type="submit" value="Submit" style="float: left;">
-	    </form>
-	</div>
+<p></p>
+<br>
+<div class="uk-grid" style="padding-left: 100px; padding-right: 100px;">
 
+
+    <div class="uk-width-large-1-2">
+
+        <p>Apakau's API DDN is designed to accelerate REST and mobile APIs at the edge,
+            making app delivery 10x faster, safer, and cheaper with just a simple DNS change.
+            Traffic shaping happens transparently at the edge nodes to keep your business running
+            at high performance levels, even under attack.</p>
+
+        <p>With Apakau DDN:</p>
+        <ul style="margin-left: 15px;">
+            <li>Improve API performance by 10x to improve revenue generation</li>
+            <li>Service 10x more requests</li>
+            <li>No single point of failure</li>
+            <li>Easy deployment</li>
+            <li>Ability to react to changing business conditions</li>
+            <li>Protect your endpoint from DDoS and other attacks at the edge nodes</li>
+        </ul>
+
+        <p>See the difference in speed with and without our API Data Delivery Network (DDN). Provide us your API info and we'll test the latency of your API on AT&T, Verizon, and Sprint networks in three major metropolitan cities (San Jose, New York, Miami). You will receive an email in 48 hours containing the response times of your API on Apakau's DDN at different times of the day compared to industry standards.</p>
+        <br><br>
+    </div>
+
+    <div class="uk-width-large-1-2">
+
+        <p><center>
+        <img src="../CDN/evalAssets/dashboard-small.png" class="dashboard">
+        </center></p><br><br>
+
+        <!--
+<div id="gauge" class="gauge"></div>
+<div id="gauge2" class="gauge"></div>
+
+<script>
+    var g = new JustGage({
+        id: "gauge",
+        value: getRandomInt(1300,1900),
+        min: 0,
+        max: 2000,
+        title: "Mobile Carrier"
+    });
+
+    var g = new JustGage({
+        id: "gauge2",
+        value: getRandomInt(230,300),
+        min: 0,
+        max: 2000,
+        title: "Apakau DDN"
+    });
+
+</script>
+-->
+
+    </div>
+
+
+
+    <br><br>
+
+
+<div class="uk-width-large-1-1">
+
+    <form onsubmit="sendData(); return false" class="request">
+
+        <p><center><b>Performance Evaluation Request</b></center></p>
+        <label for="endpoint">API Endpoint:</label><br>
+        <input type="text" id="endpoint" style="margin-top: 5px;" size="45" placeholder="https://api.example.com/"><br><br>
+
+        <label for="secretkey">API Secret Key:</label><br>
+        <input type="password" id="secretkey" style="margin-top: 5px;" size="45"><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="text" id="email" size="45" style="margin-top: 5px;" placeholder="user@example.com"><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</div>
+
+</div>
+<br><br>
 </body>
 
 </html>

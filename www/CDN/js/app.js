@@ -9,18 +9,21 @@
         this.apiEndpoint = args.apiEndpoint || "";
         this.apiSecretkey = args.apiSecretkey || "";
         this.emailAddress = args.emailAddress || "";
+        this.requestId = args.requestId || "";
     }
 
     function sendData() {
 
         var endpoint = document.getElementById("endpoint").value,
             secretkey = document.getElementById("secretkey").value,
-            email = document.getElementById("email").value;
+            email = document.getElementById("email").value,
+            requestid = Math.random().toString(36).substring(7);
 
         var requestObject = new Request( {
             apiEndpoint: endpoint,
             apiSecretkey: secretkey,
             emailAddress: email,
+            requestId: requestid,
         });
 
         if (endpoint == null || endpoint == "" ||
