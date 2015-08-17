@@ -11,17 +11,15 @@
     <script src="../CDN/libs/backendless.js"></script>
     <script src="../CDN/js/app.js"></script>
 
-    <script src="../CDN/js/raphael.2.1.0.min.js"></script>
-    <script src="../CDN/js/justgage.1.0.1.min.js"></script>
-
-</head>
+    </head>
 
 <body>
 
 <p></p>
-<br>
-<div class="uk-grid" style="padding-left: 100px; padding-right: 100px;">
 
+<br>
+
+<div class="uk-grid" style="padding-left: 100px; padding-right: 100px;">
 
     <div class="uk-width-large-1-2">
 
@@ -31,7 +29,8 @@
             at high performance levels, even under attack.</p>
 
         <p>With Apakau DDN:</p>
-        <ul style="margin-left: 15px;">
+
+        <ul class="ddn">
             <li>Improve API performance by 10x to improve revenue generation</li>
             <li>Service 10x more requests</li>
             <li>No single point of failure</li>
@@ -40,69 +39,69 @@
             <li>Protect your endpoint from DDoS and other attacks at the edge nodes</li>
         </ul>
 
-        <p>See the difference in speed with and without our API Data Delivery Network (DDN). Provide us your API info and we'll test the latency of your API on AT&T, Verizon, and Sprint networks in three major metropolitan cities (San Jose, New York, Miami). You will receive an email in 48 hours containing the response times of your API on Apakau's DDN at different times of the day compared to industry standards.</p>
+        <p>See the difference in speed with and without our API Data Delivery Network (DDN).
+            Provide us your API info and we'll test the latency of your API on AT&T, Verizon, and Sprint
+            networks in three major metropolitan cities (San Jose, New York, Miami).
+            You will receive an email in 48 hours containing the response times of your API on
+            Apakau's DDN at different times of the day compared to industry standards.</p>
+
         <br><br>
+
     </div>
 
     <div class="uk-width-large-1-2">
 
         <p><center>
         <img src="../CDN/evalAssets/dashboard-small.png" class="dashboard">
-        </center></p><br><br>
+        </center></p>
 
-        <!--
-<div id="gauge" class="gauge"></div>
-<div id="gauge2" class="gauge"></div>
-
-<script>
-    var g = new JustGage({
-        id: "gauge",
-        value: getRandomInt(1300,1900),
-        min: 0,
-        max: 2000,
-        title: "Mobile Carrier"
-    });
-
-    var g = new JustGage({
-        id: "gauge2",
-        value: getRandomInt(230,300),
-        min: 0,
-        max: 2000,
-        title: "Apakau DDN"
-    });
-
-</script>
--->
+        <br><br>
 
     </div>
 
-
-
     <br><br>
-
 
 <div class="uk-width-large-1-1">
 
     <form onsubmit="sendData(); return false" class="request">
 
         <p><center><b>Performance Evaluation Request</b></center></p>
-        <label for="endpoint">API Endpoint:</label><br>
-        <input type="text" id="endpoint" style="margin-top: 5px;" size="45" placeholder="https://api.example.com/"><br><br>
 
-        <label for="secretkey">API Secret Key:</label><br>
-        <input type="password" id="secretkey" style="margin-top: 5px;" size="45"><br><br>
+        <div class="uk-grid">
 
-        <label for="email">Email Address:</label><br>
-        <input type="text" id="email" size="45" style="margin-top: 5px;" placeholder="user@example.com"><br><br>
+            <div class="uk-width-large-1-2">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" class="text" size="40">
+                <br><br>
 
-        <input type="submit" value="Submit">
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="email" class="text" size="40" placeholder="user@example.com">
+                <br><br>
+            </div>
+
+            <div class="uk-width-large-1-2">
+                <label for="endpoint">API Endpoint:</label><br>
+                <input type="text" id="endpoint" class="text" size="40" placeholder="https://api.example.com/">
+                <br><br>
+
+                <label for="secretkey">API Secret Key:</label><br>
+                <input type="password" id="secretkey" class="text" size="40">
+            </div>
+
+            <div class="uk-width-large-1-1">
+                <input type="submit" value="Submit" class="button">
+            </div>
+
+        </div>
 
     </form>
 
 </div>
 
 </div>
+
 <br><br>
+
 </body>
 
 </html>

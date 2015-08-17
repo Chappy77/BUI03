@@ -19,6 +19,9 @@ head.load(
     ,'CDN/jvectormap/jquery-jvectormap-us-lcc-en.js'
     ,'CDN/jvectormap/jquery-jvectormap-world-mill-en.js' // changes here
 
+    //Backendless
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/js/app.js'
+    ,'//cdn.rawgit.com/Chappy77/BUI03/master/www/CDN/libs/backendless.js'
 
 )
 

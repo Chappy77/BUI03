@@ -6,6 +6,7 @@
 
     function Request(args) {
         args = args || {};
+        this.fullName = args.fullName || "";
         this.apiEndpoint = args.apiEndpoint || "";
         this.apiSecretkey = args.apiSecretkey || "";
         this.emailAddress = args.emailAddress || "";
@@ -14,25 +15,29 @@
 
     function sendData() {
 
-        var endpoint = document.getElementById("endpoint").value,
+        var fullname = document.getElementById("name").value,
+            endpoint = document.getElementById("endpoint").value,
             secretkey = document.getElementById("secretkey").value,
             email = document.getElementById("email").value,
             requestid = Math.random().toString(36).substring(7);
 
         var requestObject = new Request( {
+            fullName: fullname,
             apiEndpoint: endpoint,
             apiSecretkey: secretkey,
             emailAddress: email,
             requestId: requestid,
         });
 
-        if (endpoint == null || endpoint == "" ||
+        if (fullname == null || fullname == "" ||
+            endpoint == null || endpoint == "" ||
             secretkey == null || secretkey == "" ||
             email == null || email =="") {
             alert("Please fill out all fields.")
             return false;
         } else {
-            alert('apiEndpoint = ' + requestObject.apiEndpoint + '\n' +
+            alert('fullName = ' + requestObject.fullName + '\n' +
+                'apiEndpoint = ' + requestObject.apiEndpoint + '\n' +
                 'apiSecretkey = ' + requestObject.apiSecretkey + '\n' +
                 'emailAddress = ' + requestObject.emailAddress);
             }
